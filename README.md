@@ -256,6 +256,11 @@ frayproof validate --snapshot fixtures/malformed_content.json --format json
 ```text
 {"schema_version": 1, "error": "messages[0].content[0].type must be a string"}
 ```
+
+## Declare the contract
+
+This is `examples/contract.yaml`:
+
 ```yaml
 version: 1
 format: openai
